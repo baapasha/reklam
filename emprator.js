@@ -73,7 +73,7 @@ client.on("message", saewan => {
       saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
 `); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("").send(////ئایدی ژوری تێکست
+      client.channels.get("741776396518686720").send(////ئایدی ژوری تێکست
  
         `> Nerdra la layan <@${saewan.author.id}> 
 ${saewan.content}`
@@ -123,5 +123,5 @@ m.setVoiceChannel(author);
 
 // ======== { • TOKENN • }======== //
 
-client.login("");
+client.login("ODIxNDU4Mjg5ODg3MTUwMTQ1.YFEApg.lT9-s8yOFpv0GhcfQZd9UPEbgm8");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
