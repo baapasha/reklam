@@ -44,7 +44,7 @@ client.on("ready", () => {
 
 // ======== { • REPLAY • }======== //
 
-client.on("message", SAEWAN => {
+client.on("message", reklam bnera.ریکلام بنێرە => {
   if (SAEWAN.content.startsWith("reklam")) {
     SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
