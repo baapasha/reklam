@@ -73,7 +73,7 @@ client.on("message", saewan => {
       saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
 `); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("741776396518686720").send(////ئایدی ژوری تێکست
+      client.channels.get("").send(////ئایدی ژوری تێکست
  
         `> Nerdra la layan <@${saewan.author.id}> 
 ${saewan.content}`
