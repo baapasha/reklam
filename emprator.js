@@ -123,5 +123,5 @@ m.setVoiceChannel(author);
 
 // ======== { • TOKENN • }======== //
 
-client.login("ODIxNDMyOTIxMDAzOTE3Mzcy.YFDpBQ.x0_a_8GTv5R4C_H9q6JecsiXOjo");
+client.login("2fdYHZUzrrrRfFYUyQmB-vggcHUX5iUv");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
