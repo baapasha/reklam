@@ -44,19 +44,19 @@ client.on("ready", () => {
 
 // ======== { • REPLAY • }======== //
 
-client.on("message", SAEWAN => {
+client.on("message", PASHA => {
   if (SAEWAN.content.startsWith("reklam")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+    PASHA.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    PASHA.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 ////////
 
-client.on("message", SAEWAN => {
+client.on("message", PASHA => {
   if (SAEWAN.content.startsWith("ریکلام")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    PASHA.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    PASHA.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
@@ -67,16 +67,16 @@ client.on("ready", () => {
   if (join) join.join();
 });
 
-client.on("message", saewan => {
+client.on("message", PASHA => {
   if (saewan.channel.type === "dm") {
-    if (saewan.content.startsWith("https://discord.gg/")) {
-      saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
+    if (pasha.content.startsWith("https://discord.gg/")) {
+      pasha.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
 `); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("").send(////ئایدی ژوری تێکست
+      client.channels.get("741776396518686720").send(////ئایدی ژوری تێکست
  
-        `> Nerdra la layan <@${saewan.author.id}> 
-${saewan.content}`
+        `> Nerdra la layan <@${pasha.author.id}> 
+${pasha.content}`
       );
     }
   }
