@@ -30,8 +30,8 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `PARTNER BOT `,
-    `BY : ریکلامە کە بۆمن بنێرە دڵی من`
+    `PARTNER ریکلام بۆمن بنێرە `,
+    `BY : PASHA UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
